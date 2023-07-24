@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,13 @@
 
 
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-[class^='col-']{
+[class^='col-'] {
     background-color: #006cfa;
     height: 50px;
     border: 1px solid white;
@@ -29,7 +29,7 @@
     border: 1px solid #006cfa;
 }
 
-.container{
+.container {
     margin: 0 auto;
     padding-bottom: 1rem;
 }
@@ -85,11 +85,11 @@
 
 
 
-.m-1{
+.m-1 {
     margin: 1rem;
 }
 
-.p-1{
+.p-1 {
     padding: 1rem;
 }
 
@@ -99,49 +99,78 @@
 .offset-col-1 {
     margin-left: calc((100% /12) *1);
 }
+
 .offset-col-2 {
     margin-left: calc((100% /12) *2);
 }
+
 .offset-col-3 {
     margin-left: calc((100% /12) *3);
 }
+
 .offset-col-4 {
     margin-left: calc((100% /12) *4);
 }
+
 .offset-col-5 {
     margin-left: calc((100% /12) *5);
 }
+
 .offset-col-6 {
     margin-left: calc((100% /12) *6);
 }
+
 .offset-col-7 {
     margin-left: calc((100% /12) *7);
 }
+
 .offset-col-8 {
     margin-left: calc((100% /12) *8);
 }
+
 .offset-col-9 {
     margin-left: calc((100% /12) *9);
 }
+
 .offset-col-10 {
     margin-left: calc((100% /12) *10);
 }
+
 .offset-col-11 {
     margin-left: calc((100% /12) *11);
 }
+
 .offset-col-12 {
     margin-left: calc((100% /12) *12);
 }
 
 
 @media screen and (max-width:575px) {
- 
-    .first [class^='col-']{
+    .first [class^='col-'] {
         width: 100%;
     }
 
-    .first{
+    .first {
         width: 479px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .col-md-6 {
+        width: calc((100% /12) *6);
+    }
+    .col-md-5{
+        width: calc((100% /12) *5);
+    }
+    .col-md-2{
+        width: calc((100% /12) *2);
+    }
+    .col-md-10{
+        width: calc((100% /12) *10);
+    }
+    .col-md-12{
+        width: calc((100% /12) *12);
     }
     
 }

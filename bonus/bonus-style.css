@@ -1,0 +1,13 @@
+.third [class^='col-']{
+    transition: all 1s linear;
+}
+
+.third [class^='col-']:hover{
+   transform: scaleX(3);
+}
+
+.third [class^='col-']:hover [class^='offset-']{
+    margin-left: 0;
+}
+
+
