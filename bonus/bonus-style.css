@@ -11,3 +11,58 @@
 }
 
 
+.nested{
+    display: none;
+}
+
+.container span{
+    text-decoration: line-through;
+}
+.container h2::after{
+    content: "Stairway to heaven";
+}
+
+.row-first [class^='col-']{
+    background-color: rgb(255, 0, 0);
+    color: transparent;
+    border: none;
+    
+}
+.row-second [class^='col-']{
+    background-color: orange;
+    color: transparent;
+    border: none;
+}
+.row-third [class^='col-']{
+    background-color: yellow;
+    color: transparent;
+    border: none;
+}
+.row-fourth [class^='col-']{
+    background-color: green;
+    color: transparent;
+    border: none;
+}
+.row-fifth [class^='col-']{
+    background-color: blue;
+    color: transparent;
+    border: none;
+}
+.row-sixth [class^='col-']{
+    background-color: indigo;
+    color: transparent;
+    border: none;
+}
+
+.stairs{
+    background-color: rgb(255, 236, 126);
+    transition: all 1s linear;
+}
+
+.stairs:hover{
+    transform: scaleX(3);
+}
+
+.sky{
+    background-color: white;
+}
